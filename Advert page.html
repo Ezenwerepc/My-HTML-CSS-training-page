@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+ <title>About us</title>
+ <link rel="stylesheet" href="/Mystyle.css">
+</head>
+<body>
+
+<!--Flex-->
+<div class="flex-container"><div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti deserunt voluptatem error iusto accusamus illo consequatur quibusdam recusandae dolores similique!</div><div class="box">Lorem ipsum dolor sit amet.</div>
+</div>
+
+<div class="dropdown">
+ <span> mouse over me</span>
+ <div class="dropdown-content">
+ <p>Link1</p>
+ <p>Link2</p>
+ <p>Link3</p>
+</div> 
+</div>
+<br><br>
+<!--Flex-->
+<div class="flex">flex-container
+ <span class="tooltip">tooltip</span>
+</div>
+<br><br><br>
+<div class="head">
+ <div class="main">Main</div>
+ <div class="left">left</div>
+ <div class="right">Right</div>
+ <div class="footer">footer</div>
+</div>
+<br><br>
+import { ExpenseItem} from "./Expenses";
+function App() {return (<div>
+ <h2>Lets get started!</h2>
+ <ExpenseItem></ExpenseItem>
+</div>);
+ }
+ export default App;
+</body>
+</html>
